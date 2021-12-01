@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+.holder {
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: center;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.field {
+  background-color: white;
+  width: 20%;
+}
+
+button{
+  background-color: lavender;
+  width: 10%;
+}
+
+.field, button {
+  border-style: outset;
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.todos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.todos > div {
+  text-align: center;
+  background-color: white;
+  width: 43%;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
 }
